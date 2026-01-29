@@ -46,6 +46,61 @@ auth-system/
 
 (To be added)
 
+## Commands Used So Far
+
+### Project Initialization
+
+```bash
+mkdir auth-system
+cd auth-system
+mkdir backend frontend
+```
+
+### Backend Setup
+
+- Backend commands run **inside `backend/`**
+
+```bash
+cd backend
+npm init -y
+```
+
+### Install Dependencies
+
+```bash
+npm install express mysql2 bcrypt dotenv cors
+```
+
+### Install Dev Dependency
+
+```bash
+npm install --save-dev nodemon
+```
+
+### Run Backend Server
+
+```bash
+npx nodemon index.js
+```
+
+### Git Setup
+
+- Git commands run **from project root `auth-system/`**
+
+```bash
+git init
+git add .
+git commit -m " "
+```
+
+### Connect to GitHub & Push
+
+```bash
+git branch -M main
+git remote add origin https://github.com/<your-username>/auth-system.git
+git push -u origin main
+```
+
 ## Status
 
 🚧 In progress
